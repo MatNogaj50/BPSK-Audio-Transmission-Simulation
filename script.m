@@ -10,7 +10,7 @@ DataMono = mean(Data, 2);
 %% Start moment
 
 Len = length(DataMono);
-StartingPoint = 0.9;    % User input 0 - 1
+StartingPoint = 0.8;    % User input 0 - 1
 EndingPoint = 0.95;     % User input 0 - 1
 TrimmedData = DataMono(round(StartingPoint*Len) : round(EndingPoint*Len));
 
